@@ -1,31 +1,28 @@
 <!-- Tab links -->
 <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Accueil')"><mark><b><u>Accueil</u></b></mark></button>
-        <button class="tablinks" onclick="openCity(event, 'Nouveau')"><mark><b><u>Nouveau</u></mark></b></button>
-        <button class="tablinks" onclick="openCity(event, 'Contenu')"><mark><b><u>Contenu</u></mark></b></button>
+        <button class="tablinks" onclick="openChurh(event, 'Event')"><mark><b><u>Event</u></b></mark></button>
+        <button class="tablinks" onclick="openChurch(event, 'Testimony')"><mark><b><u>Testimony</u></mark></b></button>
+     
       </div>
       
       <!-- Tab content -->
-      <div id="Accueil" class="tabcontent">
+      <div id="Event" class="tabcontent">
         <h3>Tes 1</h3>
         <p>pastor Lilliane</p>
               
               
               
-              <img  src="WhatsApp Image 2019-09-07 at 14.58.41.jpeg" align="right" weight: 25%>
+             
                       
               
    </div>
       
-      <div id="Nouveau" class="tabcontent">
+      <div id="Event" class="tabcontent">
         <h3>Test</h3>
         <p>test 2nd </p>
       </div>
       
-      <div id="Contenu" class="tabcontent">
-        <h3>gtest</h3>
-        <p>123ER</p>
-      </div>       
+         
               
        
 
@@ -42,7 +39,7 @@
         .tab button {
           background-color: inherit;
           float: left;
-          border: none;
+          border:  2px solid #0099CC;
           outline: none;
           cursor: pointer;
           padding: 14px 16px;
@@ -69,20 +66,11 @@
 
         /* Style the body */
   
-        .body {
-          
-        }
-            
-         #borderimg {
-  border: 5px transparent;
-  padding: 5px;
-  weight: 25%
-  border-image: url(WhatsApp Image 2019-09-07 at 14.58.41.jpeg) 10 round;
-}
+       
     </style>
 
     <script>
-    function openCity(evt, cityName) {
+    function openChurch(evt, churchName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
